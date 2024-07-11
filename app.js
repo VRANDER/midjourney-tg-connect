@@ -16,7 +16,7 @@ const sudoUser = parseInt(SUDO_USER, 10);
 
 const bot = new TelegramBot(TG_BOT_TOKEN, { polling: true });
 
-// Use command
+
 startBot(bot);
 midJourney(bot, sudoUser);
 addSudoer(bot, sudoUser);
