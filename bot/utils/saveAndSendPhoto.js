@@ -23,7 +23,7 @@ export const saveAndSendPhoto = async (
       .catch(error => {
         console.error(error);
       });
-  } catch (error) {
+  } /*catch (error) {
     console.log(error);
-  }
+  }*/
 };
