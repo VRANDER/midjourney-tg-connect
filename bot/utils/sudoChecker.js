@@ -17,7 +17,7 @@ export const sudoChecker = async (
     if (!foundSudoer) {
       bot.sendMessage(
         chatID,
-        `@${username} you don't have enough permission to run this command.`,
+        `@${username} you don't have enough permission to run this command. Your action will be reported.`,
         options || {}
       );
       return false;
